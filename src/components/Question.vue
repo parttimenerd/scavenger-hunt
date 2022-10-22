@@ -19,6 +19,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  hints: {
+    type: Array,
+    required: false,
+  },
 });
 
 const route = useRoute();
@@ -38,8 +42,14 @@ const doAnswer = (answer) => {
     <h1>{{ question }}</h1>
     <div>
       <div v-if="state === 'question'">
-        <div class="mb-4 ms-3">
+        <div class="mt-3 mb-4 ms-3">
           <slot name="question"></slot>
+        </div>
+        <div v-if="props.hints" class="mb-4 ms-3">
+          <details v-for="hint in props.hints" :key="hint">
+            <summary class="btn btn-secondary">Tipp</summary>
+              {{ hint }}
+            </details>
         </div>
         <div class="d-flex">
          <div class="btn-group-vertical flex-fill" role="group" aria-label="Antwortmöglichkeiten">
