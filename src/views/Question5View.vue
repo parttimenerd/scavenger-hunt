@@ -8,18 +8,19 @@ import WithLocation from "../components/WithLocation.vue";
     :location="[8.4093418, 49.0111333]"
     location-name="Mathe-Fachschaft"
   >
-    <Question
-      :answers="['17.11.22', '18.11.22', '16.11.22']"
-      question="Wann findet die NdW statt?"
-      correct-answer="18.11.22"
-      next-question="question6"
-    >
-      <template #location>
+  <template #location>
         <p>
           „Frisch also! Mut(h)ig ans Werk!“ (Schiller, Die Räuber) Folgt dem
           Stilmittel zur nächsten Fakultät.
         </p>
       </template>
+    <Question
+      :answers="['17.11.22', '18.11.22', '16.11.22']"
+      question="Wann findet die NdW statt?"
+      correct-answer="18.11.22"
+      next-question="question6"
+      :hints="['rot = 1, orange = 2, blau = 5, grün = 2']"
+    >
       <template #question>
         <div>
           <span class="T4">N</span><span class="T8">a</span
@@ -119,12 +120,6 @@ import WithLocation from "../components/WithLocation.vue";
           ><span class="T15">(Nacht der Wissenschaft) </span
           ><span class="T19">Σ</span
           ><span class="T15">(Nacht der Wissenschaft)</span>
-        </p>
-        <p class="P5"> </p>
-        <p class="P1">
-          <span class="T1">rot = 1, gelb = </span><span class="T2">2</span
-          ><span class="T1">, </span><span class="T2">blau = 5, </span
-          ><span class="T1">grün = 2</span>
         </p>
         <p>Wann findet die NdW statt?</p>
       </template>
@@ -268,10 +263,10 @@ span.heading_numbering {
 }
 .T13 {
   text-decoration: none !important;
-  background-color: #ffffa6;
+  background-color: orange;
 }
 .T14 {
-  background-color: #ffffa6;
+  background-color: orange;
 }
 .T15 {
   color: #000000;
@@ -287,7 +282,7 @@ span.heading_numbering {
   font-family: "Liberation Serif";
 }
 .T18 {
-  color: #ffff00;
+  color: orange;
   font-family: "Liberation Serif";
   font-size: 15pt;
   background-color: transparent;
@@ -309,7 +304,7 @@ span.heading_numbering {
 }
 .T5 {
   font-style: normal;
-  background-color: #ffffa6;
+  background-color: orange;
 }
 .T6 {
   font-style: normal;

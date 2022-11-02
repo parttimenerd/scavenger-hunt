@@ -19,8 +19,8 @@ import WithLocation from "../components/WithLocation.vue";
       :answers="['A', 'B', 'C']"
       question="Etwas zum Knobeln"
       correct-answer="B"
-      next-question="end"
-      :hints="['Die Frage ist Bromthymolblau']"
+      next-question="question8"
+      :hints="['Die Farbe ist Bromthymolblau']"
     >
       <template #question>
         <p>
@@ -31,7 +31,7 @@ import WithLocation from "../components/WithLocation.vue";
           Indikationsfarben bereits im Namen trägt.
           Welcher Zusammenhang ist korrekt?
         </p>
-        <img src="../assets/equations.png" style="width: 100%" />
+        <img src="../assets/equations.png" />
       </template>
       <template #answer>
         <p>

@@ -20,7 +20,7 @@ import WithLocation from "../components/WithLocation.vue";
       :hints="[
         'NdW Karlsruhe',
         'Der berühmte Erfinder ist Carl Benz.',
-        'Der berühmte Wissenschaftler Heinrich Hertz.',
+        'Eine Dose mit NdW Logo und Pyramide ist am Fahrradständer befestigt.',
       ]"
     >
       <template #question>
@@ -31,19 +31,12 @@ import WithLocation from "../components/WithLocation.vue";
           zurück und ermöglicht auch anderen ein funktionierendes Spiel, danke!
         </p>
         <p>
-          <i
-            >Eine Dose mit NdW Logo und Pyramide ist am Fahrradständer
-            befestigt.</i
-          >
-        </p>
-        <p>
           Setzt es zusammen und betrachte die zusammenhängende Kante mit den
           Augen eines berühmten Erfinders: Auf welche Gebäude zeigen die Ecken?
         </p>
       </template>
       <template #answer>
-        In diesen 3 Gebäuden fand die 2., wie auch die aktuelle Nacht der
-        Wissenschaft statt.
+        In diesen 3 Gebäuden fand die zweite NdW statt. Dort wird die NdW auch dieses Jahr wieder stattfinden.
       </template>
     </Question>
   </WithLocation>

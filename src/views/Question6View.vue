@@ -38,7 +38,7 @@ import WithLocation from "../components/WithLocation.vue";
       <template #answer>
         Vielleicht folgt der Denkende aber auch dem Grundsatz: „Cogito, ergo
         sum“. Anhand eines ähnlich bekannten lateinischen Ausspruchs wurde auf
-        der 1. NdW die Kernspinresonanzspektroskopie anschaulich, oder eher
+        der ersten NdW die Kernspinresonanzspektroskopie anschaulich, oder eher
         geschmacklich, erklärt. Das nächste Rätsel erwartet euch an der Fakultät
         des Dozenten.
       </template>

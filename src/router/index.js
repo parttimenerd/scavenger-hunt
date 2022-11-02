@@ -7,6 +7,7 @@ import Question4View from "../views/Question4View.vue";
 import Question5View from "../views/Question5View.vue";
 import Question6View from "../views/Question6View.vue";
 import Question7View from "../views/Question7View.vue";
+import Question8View from "../views/Question8View.vue";
 import EndView from "../views/EndView.vue";
 
 const router = createRouter({
@@ -51,6 +52,11 @@ const router = createRouter({
       path: "/question7",
       name: "question7",
       component: Question7View,
+    },
+    {
+      path: "/question8",
+      name: "question8",
+      component: Question8View,
     },
     {
       path: "/end",

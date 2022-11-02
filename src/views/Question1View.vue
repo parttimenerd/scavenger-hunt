@@ -27,7 +27,7 @@ import WithLocation from "../components/WithLocation.vue";
         Wie viele Hörsäle wurden bei dieser 1. NdW bespielt?
       </template>
       <template #answer>
-        Die 1. NdW wurde von einem 10-köpfigen Orgateam auf die Beine gestellt
+        Die erste NdW wurde von einem 10-köpfigen Orgateam auf die Beine gestellt
         und von über 1000 Gästen besucht.
       </template>
     </Question>

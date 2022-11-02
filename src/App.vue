@@ -27,4 +27,8 @@ body {
   width: 600px;
   padding: 0 1rem;
 }
+
+img {
+  width: 100%;
+}
 </style>
