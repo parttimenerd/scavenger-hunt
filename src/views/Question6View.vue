@@ -22,7 +22,7 @@ import WithLocation from "../components/WithLocation.vue";
         'Simon Moser, ehemaliger Leiter der Studium Generale',
       ]"
       question="Der Denkende"
-      correct-answer="Simon Moser, ehemaliger Leiter der Studium Generale (Osten)"
+      correct-answer="Simon Moser, ehemaliger Leiter der Studium Generale"
       next-question="question7"
       :hints="[
         'Karl Wilhelm: Westen',
@@ -36,11 +36,7 @@ import WithLocation from "../components/WithLocation.vue";
         Spiegel. In welche Richtung zeigen seine Füße jetzt?
       </template>
       <template #answer>
-        Vielleicht folgt der Denkende aber auch dem Grundsatz: „Cogito, ergo
-        sum“. Anhand eines ähnlich bekannten lateinischen Ausspruchs wurde auf
-        der ersten NdW die Kernspinresonanzspektroskopie anschaulich, oder eher
-        geschmacklich, erklärt. Das nächste Rätsel erwartet euch an der Fakultät
-        des Dozenten.
+        In Richtung Osten, zum Gebäude vom Studium Generale.
       </template>
     </Question>
   </WithLocation>

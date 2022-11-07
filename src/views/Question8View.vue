@@ -18,7 +18,7 @@ import WithLocation from "../components/WithLocation.vue";
         'x₁ = R, x₂ = R, x₃ = r',
         'x₁ = R, x₂ = r, x₃ = R',
       ]"
-      question="Verberbungslehre"
+      question="Vererbungslehre"
       correct-answer="x₁ = R, x₂ = r, x₃ = R"
       next-question="end"
     >
@@ -27,7 +27,7 @@ import WithLocation from "../components/WithLocation.vue";
           Die NdW entwickelt sich stetig weiter, gleich einer Evolution, und
           wird gestaltet vom aktuellen Orgateam. Jedes neue Mitglied bringt auch
           neue Ansätze mit und manche Ideen vererben sich weiter, genau wie ein
-          Gen, z.B. das zum Zungerolle. So entsteht immer eine neue, etwas
+          Gen, z.B. das zum Zungerollen. So entsteht immer eine neue, etwas
           andere NdW. Aber wie war das jetzt nochmal mit der Vererbung?
         </p>
         <img src="../assets/genetics.png" />

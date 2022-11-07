@@ -28,7 +28,7 @@ import WithLocation from "../components/WithLocation.vue";
           Besucher angeboten, allerdings nicht die ganze Nacht, sondern nur bis
           <math>1<mi>x</mi></math> Uhr.
         </p>
-        <img src="../assets/circuit.png" style="width: 100%" />
+        <img src="../assets/circuit.png"/>
         <p>Was kommt am Ende dieser Schaltung heraus?</p>
       </template>
       <template #answer> </template>

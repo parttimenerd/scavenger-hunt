@@ -8,7 +8,7 @@ const questionCount = computed(() => new Set(store.correctQuestions).size);
 <template>
   <h2>Glückwunsch...</h2>
   <p>
-    ... du hast mindestens {{ questionCount }} Frage{{
+    ... du hast {{ questionCount }} Frage{{
       questionCount != 1 ? "n" : ""
     }}
     richtig beantwortet

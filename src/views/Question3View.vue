@@ -31,7 +31,7 @@ import WithLocation from "../components/WithLocation.vue";
           zurück und ermöglicht auch anderen ein funktionierendes Spiel, danke!
         </p>
         <p>
-          Setzt es zusammen und betrachte die zusammenhängende Kante mit den
+          Setzt es zusammen und betrachtet die zusammenhängende Kante mit den
           Augen eines berühmten Erfinders: Auf welche Gebäude zeigen die Ecken?
         </p>
       </template>

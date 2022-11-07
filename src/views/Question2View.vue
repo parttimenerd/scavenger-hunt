@@ -29,7 +29,7 @@ import WithLocation from "../components/WithLocation.vue";
       <template #question>
         <p>
           Hier an der Physik finden im Moment unsere Sitzungen statt. Wir
-          treffen und ca. alle 2 Wochen und besprechen bei Bier und Mate
+          treffen uns ca. alle 2 Wochen und besprechen bei Bier und Mate
           anstehende Veranstaltungen, Vereinsangelegenheiten oder die besten
           Glühweinangebote. Komm doch einfach mal vorbei, den nächsten Termin
           erfährst du unter <a href="mailto:info@ndw-ka.de">info@ndw-ka.de</a>.

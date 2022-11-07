@@ -10,7 +10,7 @@ import WithLocation from "../components/WithLocation.vue";
   >
   <template #location>
         <p>
-          „Frisch also! Mut(h)ig ans Werk!“ (Schiller, Die Räuber) Folgt dem
+          „Frisch also! Mut(h)ig ans Werk!“ (Schiller, Die Räuber). Folgt dem
           Stilmittel zur nächsten Fakultät.
         </p>
       </template>
